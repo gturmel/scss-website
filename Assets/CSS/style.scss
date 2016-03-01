@@ -1,0 +1,39 @@
+$p-color: hsl(0, 0, 10%);
+$background: hsl(0, 0, 95%);
+
+body {
+   background-color: $background;
+}
+
+nav {
+   color: $p-color;
+   padding: 20px;
+   h3 {
+      text-decoration: underline;
+      text-align: center;
+      font-size: 28px;
+   }
+   ul {
+   }
+   li {
+      display: inline;
+   }
+   a{
+      text-decoration: none;
+      float: right;
+      padding-right: 10px;
+   }
+}
+
+section {
+   padding: 20px;
+   color: $p-color;
+   h4 {
+      padding: 10px;
+      text-decoration: underline;
+      height: 30px;
+   }
+   p {
+      font-family: verdana, sans-serif;
+   }
+}
